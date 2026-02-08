@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "EvenOdd.h"
 
 int main()
 {
@@ -8,5 +8,8 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &number);
 
-    printf("ok!");
+    printf("%d is ", number);
+    is_odd_even(number);
+
+    return 0;
 }

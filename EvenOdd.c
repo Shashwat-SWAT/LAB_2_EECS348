@@ -5,10 +5,12 @@ int is_odd_even(int num)
 {
     if (num % 2 == 0)
     {
-        return "Even";
+        printf("Even");
     }
     else
     {
-        return "Odd";
+        printf("Odd");
     }
+
+    return 0;
 }
